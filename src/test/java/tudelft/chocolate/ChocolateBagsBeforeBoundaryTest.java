@@ -19,8 +19,8 @@ public class ChocolateBagsBeforeBoundaryTest {
 
     @Test
     public void bigAndSmallBars() {
-        int result = new ChocolateBags().calculate(5, 3, 17);
-        Assertions.assertEquals(2, result);
+        int result = new ChocolateBags().calculate(5, 2, 13);
+        Assertions.assertEquals(3, result);
     }
 
     @Test
